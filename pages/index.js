@@ -11,18 +11,6 @@ import GitHubCorner from '../src/components/GitHubCorner'
 * o caracter ` é uma taged function, o código abaixo também é possivel escrever
  * como uma function 
  */
-
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
-const BackgroundImage = styled.div`
-  background-image: url(${db.bg});
-  flex: auto;
-  background-size: cover;
-  background-position: center;
-`;
-
 const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
